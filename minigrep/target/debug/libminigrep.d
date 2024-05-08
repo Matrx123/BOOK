@@ -1,1 +1,1 @@
-/Users/vipin/Documents/courses/rust/BOOK/minigrep/target/debug/libminigrep.rlib: /Users/vipin/Documents/courses/rust/BOOK/minigrep/src/lib.rs
+D:\BOOK\minigrep\target\debug\libminigrep.rlib: D:\BOOK\minigrep\src\lib.rs
