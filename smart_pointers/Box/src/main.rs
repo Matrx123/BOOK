@@ -3,7 +3,7 @@ enum List {
     Nil,
 }
 
-use List::{ Cons, Nil };
+use List::{Cons, Nil};
 
 fn main() {
     println!("Box smart pointer");
