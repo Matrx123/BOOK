@@ -2,7 +2,11 @@
 
 fn main() {
     println!("RefCell<T> interior mutability pattern!");
-
     let x = 5;
     let y = &mut x;
+
+    let mut c = 10;
+    let d = &c;
+
+    *d = 20;
 }
