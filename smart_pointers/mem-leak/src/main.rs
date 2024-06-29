@@ -41,7 +41,7 @@ fn main() {
     println!("b rc count after changing a = {}", Rc::strong_count(&b));
     println!("a rc count after changing a = {}", Rc::strong_count(&a));
 
-    //here is the code that will make stackoverflow error:
-    println!("a next item {:?}", a.tail())
+    //here is the code that will make stackoverflow error due to unallocated memory in the heap:
+    //println!("a next item {:?}", a.tail())
 
 }
