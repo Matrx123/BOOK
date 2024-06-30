@@ -1,0 +1,6 @@
+[package]
+name = "prevent_ref_cycle_weak_T"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
