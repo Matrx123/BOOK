@@ -58,7 +58,6 @@ mod blog {
         fn request_review(self: Box<Self>) -> Box<dyn State> {
             self
         }
-
         fn approve(self: Box<Self>) -> Box<dyn State> {
             Box::new(Published {})
         }
